@@ -5,7 +5,7 @@ from sklearn.pipeline import make_pipeline
 import joblib
 
 # lê o arquivo
-df = pd.read_csv('../data/duvidas.csv')
+df = pd.read_csv('data/duvidas.csv')
 
 # cria o pipeline com o vetorizador e o modelo naive bayes
 # esse modelo classifica os dados lidos de acordo com a frequencia em que as palavras se repetem e a importancia delas
